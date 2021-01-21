@@ -20,7 +20,6 @@ jobs:
       - name: Flutter action
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: '1.22.1'
           channel: 'beta'
 
       - name: Flutter test
@@ -40,7 +39,6 @@ jobs:
 
       - uses: subosito/flutter-action@v1
         with:
-          flutter-version: '1.22.1'
           channel: 'beta'
 
       - run: flutter pub get
@@ -61,7 +59,6 @@ jobs:
 
       - uses: subosito/flutter-action@v1
         with:
-          flutter-version: '1.22.1'
           channel: 'beta'
 
       - run: flutter pub get
